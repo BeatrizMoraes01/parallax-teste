@@ -1,20 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Libre+Bodoni&family=PT+Serif:wght@700&family=Playfair+Display&family=Raleway:wght@100&display=swap');
+
 body, html{
     margin: 0;
     height: 100%;
     font-size: 0.9em;
-    font-family: sans-serif;
+    font-family: 'Libre Bodoni', serif;
     color: rgb(180, 175, 175);
+    letter-spacing: 1px;
 }
 
 .content{
-    background: rgb(240, 203, 181);
-    color: rgb(112, 66, 39);
-    text-align: justify;
+    background: #171816;
+    color: #FFEFE3;
+    text-align: center;
     padding: 50px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-2{
+    background: #dfd5cb;
+    color: #426247;
+    text-align: center;
+    padding: 50px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-3{
+    background: #d4c8be;
+    color: #1C1C1C;
+    text-align: center;
+    padding: 50px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    letter-spacing: 2.5px;
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
 }
 
 /*EFEITO PARALLAX*/
-.box1, .box2, .box3{
+.box1, .box2, .box3, .box4{
     height: 100%;
     opacity: 0.8;
     background-repeat: no-repeat;
@@ -32,5 +66,9 @@ body, html{
 }
 
 .box3{
-    background-image: url(../parallax-teste/img/imagem3.png)
+    background-image: url(../parallax-teste/img/imagem3.png);
+}
+
+.box4{
+    background-image: url(../parallax-teste/img/imagem4.jpg);
 }
